@@ -16,3 +16,26 @@ sans-serif;
 $body-font-family: 'Open Sans',
 sans-serif;
 //Weights: 400
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 800px;
+    font-family: $body-font-family;
+    background-image: url("./images/bg-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: $Violet;
+    padding: 60px 70px;
+    
+    header {
+        img {
+            height: 40px;
+        }
+    }
+}
